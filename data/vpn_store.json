@@ -1,0 +1,130 @@
+{
+  "admin": {
+    "username": "RODIXSTAR6",
+    "passwordHash": "$2b$10$GX2gjA9vsGAVWKMPqSe3KO30PTtDlRtnbNSYjq9OGhllAc0M6nI0q",
+    "name": "RODIXSTAR6 (Master Admin)",
+    "role": "SUPERADMIN"
+  },
+  "admins": [
+    {
+      "username": "RODIXSTAR6",
+      "passwordHash": "$2b$10$GX2gjA9vsGAVWKMPqSe3KO30PTtDlRtnbNSYjq9OGhllAc0M6nI0q",
+      "name": "RODIXSTAR6 (Master Admin)",
+      "role": "SUPERADMIN"
+    },
+    {
+      "username": "admin",
+      "passwordHash": "$2b$10$up4Iq.4QVx0utax0t0dY2eZqkOwaEeocBh8WeON91NI1pzmyp2JQG",
+      "name": "Super Administrator",
+      "role": "SUPERADMIN"
+    }
+  ],
+  "servers": [],
+  "profiles": [
+    {
+      "id": "prof_inwi_01",
+      "name": "Inwi Social Unlimited *6",
+      "operator": "Inwi",
+      "bugHost": "web.facebook.com",
+      "sni": "m.facebook.com",
+      "payloadTemplate": "GET / HTTP/1.1[crlf]Host: [host][crlf]X-Forward-For: [host][crlf]Upgrade: websocket[crlf]Connection: Upgrade[crlf]User-Agent: [ua][crlf][crlf]",
+      "sslEnabled": true,
+      "heartbeatInterval": 20,
+      "keepAlive": true,
+      "status": "active",
+      "targetProtocol": "WebSocket TUN",
+      "description": "Bypasses Inwi social pass *6 limits with ultra-low ping for TikTok, FB & WhatsApp.",
+      "createdAt": "2026-09-07T11:00:00.000Z",
+      "updatedAt": "2026-09-07T11:00:00.000Z"
+    },
+    {
+      "id": "prof_orange_02",
+      "name": "Orange Chat & Social *6",
+      "operator": "Orange",
+      "bugHost": "v.whatsapp.net",
+      "sni": "web.whatsapp.com",
+      "payloadTemplate": "CONNECT [host_port] HTTP/1.1[crlf]Host: [host][crlf]X-Online-Host: [host][crlf]Connection: Keep-Alive[crlf]Proxy-Connection: Keep-Alive[crlf][crlf]",
+      "sslEnabled": true,
+      "heartbeatInterval": 30,
+      "keepAlive": true,
+      "status": "active",
+      "targetProtocol": "HTTP Custom",
+      "description": "High stability tunnel for Orange Morocco *6 social bundle.",
+      "createdAt": "2026-09-07T11:00:00.000Z",
+      "updatedAt": "2026-09-07T11:00:00.000Z"
+    },
+    {
+      "id": "prof_iam_03",
+      "name": "Maroc Telecom *6 Fast CDN",
+      "operator": "Maroc Telecom",
+      "bugHost": "graph.instagram.com",
+      "sni": "static.cdn.instagram.com",
+      "payloadTemplate": "GET / HTTP/1.1[crlf]Host: [host][crlf]Upgrade: websocket[crlf]Sec-WebSocket-Key: [random][crlf]Sec-WebSocket-Version: 13[crlf][crlf]",
+      "sslEnabled": true,
+      "heartbeatInterval": 25,
+      "keepAlive": true,
+      "status": "active",
+      "targetProtocol": "WebSocket TUN",
+      "description": "Direct CDN injection for IAM (Maroc Telecom) *6 recharge.",
+      "createdAt": "2026-09-07T11:00:00.000Z",
+      "updatedAt": "2026-09-07T11:00:00.000Z"
+    },
+    {
+      "id": "prof_direct_04",
+      "name": "Direct VIP (Fast Gaming & DNS)",
+      "operator": "All / Generic",
+      "bugHost": "speedtest.net",
+      "sni": "speedtest.net",
+      "payloadTemplate": "GET / HTTP/1.1[crlf]Host: [host][crlf]Connection: Upgrade[crlf][crlf]",
+      "sslEnabled": false,
+      "heartbeatInterval": 45,
+      "keepAlive": true,
+      "status": "active",
+      "targetProtocol": "Any",
+      "description": "Direct unthrottled connection for Wi-Fi, ADSL, 4G/5G fiber users.",
+      "createdAt": "2026-09-07T11:00:00.000Z",
+      "updatedAt": "2026-09-07T11:00:00.000Z"
+    },
+    {
+      "id": "prof_inwi_yt_05",
+      "name": "Inwi YouTube Pass *3 Bypass",
+      "operator": "Inwi",
+      "bugHost": "i.ytimg.com",
+      "sni": "m.youtube.com",
+      "payloadTemplate": "GET / HTTP/1.1[crlf]Host: [host][crlf]Upgrade: websocket[crlf]Connection: Upgrade[crlf][crlf]",
+      "sslEnabled": true,
+      "heartbeatInterval": 15,
+      "keepAlive": true,
+      "status": "active",
+      "targetProtocol": "WebSocket TUN",
+      "description": "Tunnel tailored for Inwi YouTube/Streaming passes with 1080p 60fps streaming.",
+      "createdAt": "2026-09-07T11:00:00.000Z",
+      "updatedAt": "2026-09-07T11:00:00.000Z"
+    }
+  ],
+  "licenses": [],
+  "settings": {
+    "appName": "Nexus Tunnel Pro",
+    "minAppVersion": "1.4.0",
+    "currentVersion": "1.5.2",
+    "forceUpdate": false,
+    "updateUrl": "https://github.com/nexusvpn/android/releases/download/v1.5.2/NexusTunnel-v1.5.2-release.apk",
+    "maintenanceMode": false,
+    "maintenanceMessage": "Scheduled server maintenance in progress. High-speed tunnels will be back online shortly.",
+    "announcementEnabled": true,
+    "announcementMessage": "⚡ Inwi *6 and Orange *6 payload algorithms updated! Ultra-fast tunnels active.",
+    "enabledOperators": {
+      "inwi": true,
+      "orange": true,
+      "iam": true,
+      "generic": true
+    },
+    "clientAppSecret": "NEXUS-ANDROID-APP-SECRET-V1-SECURE",
+    "payloadEncryptionKey": "nexus-32-byte-secret-encryption-key-!",
+    "killSwitchActivated": false,
+    "telegramSupport": "@NexusTunnelSupport",
+    "supportEmail": "support@nexusvpn.net"
+  },
+  "liveConnections": [],
+  "bandwidthHistory": []
+}

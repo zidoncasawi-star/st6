@@ -1,0 +1,8 @@
+{
+  "name": "NexusVPN Control Center",
+  "description": "Production-ready admin dashboard and REST API gateway for managing Android VPN & tunneling apps with WebSocket, SSH, HTTP Custom, Inwi *6 configs, license generation, and obfuscated telemetry.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
